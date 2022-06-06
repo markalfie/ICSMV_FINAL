@@ -110,7 +110,7 @@ def maine():
 	#MFCC PREDICTION
 	p3 = predict_label2(img_path2)[0]
 
-	# PRINT RESULT
+	# PRINT RESULT /
 	print("___________________________________________")
 	print(p)
 	print(getTentativeWeight(p), dic[getTentativeWeight(p)])
